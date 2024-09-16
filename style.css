@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0)50%, rgba(0,0,0,0)50%), url(./blue-background-7470781_1280.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: orangered;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+    color: orangered;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid red;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+}
+.btn{
+  width: 100px;
+  height: 40px;
+  background: orangered;
+  border: 2px solid orangered;
+  margin-top: 13px;
+  color: white;
+  font-size: 15px;
+}
+
+.content{
+    color: white;
+    height: auto;
+    width: 1200px;
+    margin: auto;
+    
+
+}
+
+
+.content p{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    font-family: Arial;
+
+}
+.cn{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 160px;
+    height: 40px;
+    background: orangered;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+.content a{
+    text-decoration: none;
+}
+
+.cn:hover{
+    background: white;
+}
+
+.content span{
+    color: orangered;
+    font-size: 65px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+   
+    position: absolute;
+    left: 870px;
+    padding: 25px;
+    top: -5px;
+    margin-top: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form a{
+    text-decoration: none;
+    list-style-type:none;
+    color: white;
+}
+
+.form h2{
+    text-align: center;
+
+}
+
+.form h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.email{
+    margin-bottom: 20px;
+    height: 30px;
+    width: 250px;
+  
+}
+.two{
+    height: 30px;
+    width: 250px;
+}
+.btn{
+    margin-bottom: 20px;
+}
+
+.paragarap{
+    margin-right: 30px;
+}
+.form a{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.liw{
+    margin-right: 50px;
+    margin-top: 20px;
+}
